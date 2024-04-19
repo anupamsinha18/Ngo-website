@@ -1,0 +1,460 @@
+.howitwork{
+    
+    /* padding-left: 200px; */
+    /* padding-right: 200px; */
+    margin-top: 100px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    
+    /* display: flex; */
+}
+.main-howitwork{
+    display: flex;
+    /* margin-top: 100px; */
+    font-size: 30px;
+    flex-direction: row;
+    justify-content: center;
+    /* height: 800px; */
+    width: 100%;
+    /* width: 900px; */
+}
+.howitwork h4{
+    font-size: 40px;
+    color:#FFA438;
+
+}
+.howitwork h2{
+    margin-top: -20px;
+}
+.howitwork h6{
+align-items: center;
+  padding: 20px;
+    margin-top: -10px;
+}
+.secondsection1{
+    /* gap:100px; */
+    display: flex;
+    /* margin-top: 100px; */
+    overflow-x: hidden;
+    width: 100%;
+    /* overflow-y: hidden; */
+    /* align-items: center; */
+
+
+}
+.no{
+  /* height: 400px; */
+}
+.secondsectioncontent1{
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+}
+
+.section1{
+    gap:50px;
+display: flex;
+flex-direction: column;
+}
+.content1{
+    display: flex;
+    flex-direction: column;
+   
+}
+.content1 h6{
+    margin-top: -10px;
+}
+.secondsection1{
+    display:flex;
+    /* height: 150px; */
+    /* width: 700px; */
+    width: 100%;
+    /* gap:10px; */
+
+
+}
+.secondsectioncontent1{
+    margin-top: -20px;
+}
+.secondsectioncontent h4{
+  font-size: 20px;
+    /* width: 400px; */
+}
+.secondsectioncontent{
+    /* margin-left: 100px; */
+  
+}
+.ndsection{
+  height: 300px;
+  width: 100%;
+}
+.secondsectioncontent1 p{
+  /* height: 00px; */
+}
+.Image-card-with-hover {
+  /* padding: 20px; */
+  gap: 30px;
+  display: flex;
+  margin-bottom: 100px;
+  /* justify-content: center; */
+  /* margin-left: 200px; */
+}
+.page1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.location1{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.information1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.Gallery1{
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  gap: 10px;  
+}
+
+.image-cards {
+  position: relative;
+  /* display: flex; */
+  overflow: hidden;
+ /* Adjust as needed */
+ 
+}
+.containeriiimage{
+  display: flex;
+  width: 100%;
+  margin-top: 500px;
+  justify-content: center;
+  align-items: center;
+  gap:30px
+  /* height: 500px; */
+  /* padding: 200px; */
+  /* margin-top: 500px; */
+}
+
+.image-cards img {
+  width: 400px;
+  height: 400px     ;
+  transition: transform 0.3s ease;
+}
+
+.image-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7); /* Transparent black background */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.image-name {
+  color: white;
+  font-size: 18px;
+  text-align: center;
+}
+
+.image-cards:hover img {
+  transform: scale(1.1); /* Example: Zoom in effect on hover */
+}
+
+.image-cards:hover .image-overlay {
+  opacity: 1; /* Show the overlay on hover */
+}
+
+.join-our-community {
+    /* padding: 20px; */
+    /* margin-bottom: 100px; */
+  }
+  
+  .image-container {
+    position: relative;
+    overflow-x:hidden;
+    /* width: fit-content; */
+  }
+  
+.image-container img{
+    width: 100%;
+    height: 600px;
+   
+    
+}
+  
+  .overlay-box {
+    overflow-x:hidden;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    top: 20%;
+    /* left: 15%; */
+    margin-left: 10%;
+    /* margin-right: 20%; */
+
+    color: rgb(0, 0, 0);
+    width: 80%;
+    height: 60%;
+    /* right: 20% ; */
+    border: 1px solid rgb(182, 157, 77); /* Adjust border style as needed */
+    background-color: rgba(108, 204, 83, 0.3); /* Transparent black background */
+  }
+  .overlay-box h2{
+    color: rgb(0, 0, 0);
+    margin-top: -150px;
+    margin-bottom: 30px;
+
+  }
+  .email,
+.phone {
+  margin-left: 10px; /* Adjust the margin as needed */
+}
+
+  .overlay-box p {
+    font-size: 20px;
+    margin-bottom: 40px;
+  }
+ .contact-us-card{
+  background-color: #333333;
+  height: 400px;
+  width: 100%;
+  color: rgb(250, 249, 246);
+ }
+ .main-contact-card-box1{
+  /* width: 100%; */
+  gap:40px;
+  /* margin-top: 2rem; */
+
+  justify-content: space-around;
+  display: flex;
+  /* gap:40px; */
+  /* padding: 50px; */
+  /* flex-direction: row; */
+ }
+ 
+.email-input {
+  padding: 15px;
+  width: 300px;
+  border: 1px solid #ccc;
+  background: transparent;
+  border-radius: 4px;
+  margin-right: 10px; /* Adjust spacing between input and button */
+}
+.email-input::placeholder{
+  color: rgb(0, 0, 0);
+}
+.join-button {
+  padding: 15px;
+  background-color: #FFA438; /* Button color */
+  color: #fff;
+  border: none;
+  margin-left: -10px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+footer{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  background-color: #FFA438;
+  color:white;
+}
+.photo-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px; 
+}
+
+.photo-item {
+  flex: 0 0 calc(40% - 10px); 
+   /* 2 items per row with 20px gap */ 
+}
+
+.photo-item img {
+  width: 80px;
+  height: auto;
+
+  transition:  0.3s ease;
+}
+.photo-item img:hover{
+  transform: scale(1.2);
+
+}
+/* Ending.css */
+
+/* Base styles */
+
+/* Media queries for smaller screens */
+@media screen and (max-width: 768px) {
+  .main-howitwork {
+    flex-direction: column;
+    /* height: auto; */
+  }
+
+  .howitwork {
+    /* padding: 20px; */
+    width: 100%;
+    text-align: center;
+    margin-top: 50px;
+  }
+
+  .secondsection1 {
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+    align-items: center;
+    /* margin-top: 50px; */
+  }
+
+  .secondsectioncontent1{
+    height: 400px;
+    align-items: center;
+  }
+  
+  .image-cards img {
+    /* width: 100%; */
+    height: 200px;
+    width: 200px;
+    /* height: auto; */
+
+  }
+  .ndsection{
+    height: 1000px;
+    align-items: center;
+  }
+  .Image-card-with-hover {
+    width: 100%;
+    margin-top: 600px;
+    
+    align-items: center;
+  }
+  .no h1{
+align-items: center;
+
+  }
+
+
+  .image-cards {
+/* width: 100%; */
+    align-items: center;
+    margin-bottom: 20px; /* Optional: add some space between the cards */
+  }
+.containeriiimage{
+  margin-top: 100px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.location1{
+  width: 100%;
+}
+  .image-overlay {
+    /* top: 10%; */
+    left: 0%;
+    /* width: auto; */
+    height: 100%;
+  }
+  .image-overlay:hover{
+    transform: scale(1.02);
+  }
+.logo-with-name{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.logo-with-name img{
+  align-items: center;
+  margin-left: 40px;
+
+}
+.logo-with-name h2{
+  font-size: 15px;
+}
+  .overlay-box {
+    top: 10%;
+    /* left: 5%; */
+    width: 80%;
+    height: 80%;
+  }
+
+  .contact-us-card {
+    /* height: 300px;
+     */
+     height: auto;
+    width: 100%;
+  }
+  .main-contact-card-box1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Two columns, equal width */
+    gap: 20px; /* Gap between columns */
+    width: 100%;
+  }
+  
+  .left-side,
+  .right-side {
+    /* padding: 20px; */
+  }
+  
+  .photo-grid {
+    display: flex;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 10px;
+  }
+  
+  .photo-item img {
+    width: 30%;
+    height: auto;
+  }
+  
+
+  .email-input {
+    width: 100%;
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+
+  .join-button {
+    width: 100%;
+    margin-left: 0;
+  }
+
+  .photo-item {
+    flex: 0 0 calc(50% - 10px); /* 2 items per row with 20px gap */
+  }
+  .map-container {
+    width: 10%;
+    height: 50px; /* Adjust height as needed */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    overflow: hidden; /* Ensure map doesn't overflow */
+  }
+  .leaflet-control-container{
+    display: none;
+  }
+  .page{
+    width: 100%;
+  }
+}
