@@ -1,0 +1,12 @@
+/* styles.css */
+@font-face {
+    font-family: 'sedan';
+    src: url('../src/font/IBM_Plex_Sans/IBMPlexSans-Light.ttf') format('truetype');
+    /* Additional font properties */
+  }
+  
+  body {
+    font-family: 'sedan', sans-serif;
+    /* Additional styles */
+  }
+  

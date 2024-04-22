@@ -1,18 +1,23 @@
-import React from 'react'
+import React, { useEffect, useRef } from 'react'
 import './FrontPage.css'
+import gsap from "gsap"; 
+// import { useGSAP } from "@useGSAP/react"; 
+
 import image from './BYTEWAVEDOODLE2.jpg'
 import logo from './GANGAMATTILOGO.png'
 const FrontPage = () => {
+        const container = useRef();
+      
   return (
    <>
    <div className='main'>
         <div className='landingpage'>
     <div className='Nav-bar'>
-        <div className='logo'>
+        <div className='logo'  ref={container}>
        <img src={logo} alt='logo'/>
-<h2>Ganga Mati </h2>
+<h2>Ganga Matti </h2>
 </div>
-        <div className='menu'>
+        <div className='menu'  ref={container}>
 <h3>Home</h3>
 <h3>About Us</h3>
 <h3>Gallery</h3>
@@ -22,7 +27,7 @@ const FrontPage = () => {
 
         <div className='middle-partlanding'>
                 <div className='content'>
-<h1> Creating a difference  in the society </h1>
+<h1>Empowering Change for a Sustainable Future</h1>
 </div>
 <div className='content2'>
         <h6>

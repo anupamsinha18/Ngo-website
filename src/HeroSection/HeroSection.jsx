@@ -24,7 +24,7 @@ At Ganga Mati , we are deeply committed to making a positive impact on our plane
        <img src='https://img.freepik.com/free-vector/hand-drawn-illustration-earth-day-celebration_52683-107977.jpg?t=st=1713423309~exp=1713426909~hmac=e3b88f87a05f3c6c28c4c7a52810eb45b303bc5411f76a91ef77f9e9c4506642&w=740' alt='Nature' className='imggg'/>
           <div className='image-text'>
          <div className='why'>
-            <h4>Why Choose Us</h4>
+            <h4>Our Commitment and Initiatives</h4>
             </div>
             <div className='middle'>
             <h3>Preserving Nature for Future Generations</h3>

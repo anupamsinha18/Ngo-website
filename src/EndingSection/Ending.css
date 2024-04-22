@@ -107,25 +107,38 @@ flex-direction: column;
   justify-content: center;
   align-items: center;
   gap: 10px;
+  height: 50px;
 }
 .location1{
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
   gap: 10px;
+}
+.our-location{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 .information1{
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 10px;
+  gap: 10px;  
+  height: 50px;
 }
 .Gallery1{
   display: flex;
   /* justify-content: center; */
   align-items: center;
   gap: 10px;  
+}
+.infoo{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .image-cards {
@@ -316,7 +329,7 @@ footer{
     /* padding: 20px; */
     width: 100%;
     text-align: center;
-    margin-top: 50px;
+    margin-top: 150px;
   }
 
   .secondsection1 {
@@ -331,7 +344,15 @@ footer{
     height: 400px;
     align-items: center;
   }
-  
+  .howitwork h2{
+    font-size: 25px;
+  }
+  .secondsectioncontent1 h4{
+    font-size: 25px;
+  }
+  .secondsectioncontent1 p{
+    font-size: 25px;
+  }
   .image-cards img {
     /* width: 100%; */
     height: 200px;
@@ -345,7 +366,7 @@ footer{
   }
   .Image-card-with-hover {
     width: 100%;
-    margin-top: 600px;
+    /* margin-top: 600px; */
     
     align-items: center;
   }
@@ -369,7 +390,16 @@ align-items: center;
   justify-content: center;
 }
 .location1{
-  width: 100%;
+  height:  50px;
+  display: flex;
+  
+  
+}
+.our-location p{
+  height: 10px;
+}
+.infoo p{
+  height: 10px;
 }
   .image-overlay {
     /* top: 10%; */
@@ -387,11 +417,54 @@ align-items: center;
 }
 .logo-with-name img{
   align-items: center;
-  margin-left: 40px;
+  margin-left:75px;
+  margin-top: -5px;
 
 }
 .logo-with-name h2{
   font-size: 15px;
+}
+.page1 h5{
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+.information1 h5{
+  font-size: 20px;
+  /* margin-bottom: 20px; */
+}
+.information1 h5{
+  font-size: 20px;
+  /* margin-bottom: 20px; */
+}
+.location1 h5{
+  font-size: 20px;
+}
+.page1 i{
+margin-top: 20px;
+}
+.inside-page{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 120px;
+}
+.inside-page p{
+  height: 10px;
+}
+.Gallery1 {
+  justify-content: end;
+  /* margin-left: 50px; */
+}
+.Gallery1 h5 i{
+  margin-left: 150px;
+}
+.logo-abt{
+  display: flex;
+  flex-direction: column;
+  height: 80px;
+  align-items: center;
+  justify-content: center;
 }
   .overlay-box {
     top: 10%;
@@ -409,7 +482,8 @@ align-items: center;
   .main-contact-card-box1 {
     display: grid;
     grid-template-columns: 1fr 1fr; /* Two columns, equal width */
-    gap: 20px; /* Gap between columns */
+     /* Gap between columns */
+     gap: 1px;
     width: 100%;
   }
   
@@ -419,13 +493,14 @@ align-items: center;
   }
   
   .photo-grid {
-    display: flex;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* Display 4 items in a single row */
     gap: 10px;
+    width:200% ;
   }
   
   .photo-item img {
-    width: 30%;
+    width: 100%;
     height: auto;
   }
   

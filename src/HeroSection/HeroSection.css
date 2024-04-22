@@ -290,6 +290,11 @@ padding: 10px;
 border-radius: 20px;
 }
 
+.why h4{
+  color: #ffa433;
+  font-size: 25px;
+  font-weight: 500;
+}
 
 /* HeroSection.css */
 

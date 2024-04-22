@@ -17,14 +17,15 @@ const Ending = () => {
         <div className='ndsection'>
         <div className='secondsection1'>
          <div className='no'>
-            <h1>1</h1>
+
          </div>
          <div className='secondsectioncontent1'>
             <h4>
             Environment Research
             </h4>
             <p>
-            The goal of environmental research is to understand how: the natural world works. human activity affects the environment
+         
+The aim of environmental research is to comprehend the workings of the natural world and assess how human activities impact the environment.
             </p>
             <hr></hr>
 
@@ -33,9 +34,7 @@ const Ending = () => {
 
         </div>
         <div className='secondsection1'>
-         <div className='no'>
-            <h1>2</h1>
-         </div>
+        
          <div className='secondsectioncontent1'>
             <h4>
             Rationalization    
@@ -49,16 +48,13 @@ const Ending = () => {
          </div>
          </div>
          <div className='secondsection1'>
-         <div className='no'>
-            <h1>3</h1>
-         </div>
+       
          <div className='secondsectioncontent1'>
             <h4>
             Implementation
             </h4>
             <p>
-            Choosing the right implementation environment can be complex. This is because there are a number of factors to consider
-            </p>
+            Selecting the right implementation environment can be complex due to the numerous factors that need careful consideration.            </p>
             <hr></hr>
 
          </div>
@@ -107,34 +103,43 @@ const Ending = () => {
     <div className='main-contact-card-box1'>
       <div className='logo-with-name'>
     <img src={logo1}  alt='logo'/>
+    <div className='logo-abt'>
     <h2> Ganga Matti</h2>
         
 
         <p> Go green save earth </p>
+        </div>
       </div>
       <div className='page'>
-      <div className='page1'> <i class="fa-solid fa-file"></i> <h5> Page</h5></div> 
+      <div className='page1'>  <h5> Page</h5> <i class="fa-solid fa-file"></i></div> 
+      <div className='inside-page'>
         <p>Team</p>
         <p>Project</p>
         <p>Blog</p>
         </div>
+        </div>
+       
         <div className='location'>
      
 
         <div className='location1'>
         
 
-  <h5>Our Location  <i className="fa-solid fa-location-dot"></i>  </h5>
+<h5>Our Location </h5> <i className="fa-solid fa-location-dot"></i></div>
+
+ <div className='our-location'>
   <p> ByteWave Dhanbad</p>
        <p>India</p>
   </div>
-</div>
+  </div>
 
         <div className='information'>
-        <div className='information1'> <i class="fa-solid fa-info"></i><h5>Information</h5></div> 
+        <div className='information1'> <h5>Information </h5><i class="fa-solid fa-circle-info"></i></div> 
+        <div className='infoo'>
           <p>
   +23 8282 2929</p>
   <p>gangamatti@domain.com </p>
+  </div>
         </div>
         <div className='Gallery'>
       <div className='Gallery1'><i class="fa-solid fa-photo-film"></i><h5>Gallery</h5></div>  
